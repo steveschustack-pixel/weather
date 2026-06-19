@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Weather by Webmaster Steve</title>
+	<!--meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no"/-->
+	<meta name="wb_main" content="wb_element a4cc76f6d50d47ae20e9ed25ec04d189f6ae93a42a953786aee368fb9f263064" />
+	<style type="text/css">
+		html {
+			min-height: 100%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+		body {
+			padding: 0px;
+			margin: 10px;
+			border: none;
+			font-size: 30px;
+			font-weight: bold;
+			font-family: Courier New,monospace;
+			line-height: 48px;
+			color: black;
+			text-align: center;
+			text-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+			background-color: white;
+		}
+		p {
+			text-shadow: none;
+		}
+		
+		.fwid {width: 100%; }		
+		
+		.wb-content {
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+			align-items: center;
+			margin: 0 40px;
+		}
+		.wb-hr {
+			display: block;
+			border-top: 4px solid black;
+			width: 100%;
+			max-width: 300px;
+			margin: 30px auto;
+			box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+		}
+		h1 {
+			display: block;
+			font-size: 40px;
+			font-weight: bold;
+			font-family: Courier New,monospace;
+			line-height: 40px;
+			margin: 10px 0px 10px 0px;
+			padding: 0px;
+		}
+		div.wb-domain {
+			display: block;
+			text-decoration: underline;
+		}
+		.wb-list {
+			display: block;
+			text-align: left;
+			margin: 100px 0px;
+		}
+		.wb-list ol {
+			padding: 10px 0px;
+			margin: 0 0 0 52px;
+			list-style-position: outside;
+		}
+		.wb-powered {
+			display: block;
+			margin-top: 20px;
+			font-size: 23px;
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
+		}
+		.wb-powered img {
+			margin-left: 10px;
+		}
+		.wb-powered a {
+			margin-left: 8px;
+			color: black;
+			text-decoration: underline;
+		}
+		.wb-powered a:visited,
+		.wb-powered a:hover {
+			color: black;
+			text-decoration: underline;
+		}
+		.wb_main { display: none; }
+		@media (max-width: 991px) {
+			body {
+				font-size: 24px;
+				line-height: 38px;
+			}
+			.wb-hr {
+				margin: 24px auto;
+			}
+			.wb-list {
+				margin: 80px 0;
+			}
+			.wb-list ol {
+				margin: 0 0 0 42px;
+			}
+			.wb-powered {
+				font-size: 18px;
+			}
+		}
+		@media (max-width: 767px) {
+			body {
+				font-size: 15px;
+				line-height: 24px;
+				margin: 10px;
+			}
+			.wb-hr {
+				margin: 15px auto;
+			}
+			.wb-list {
+				margin: 50px 0;
+			}
+			.wb-list ol {
+				margin: 0 0 0 26px;
+			}
+			.wb-powered {
+				font-size: 12px;
+			}
+		}
+	</style>
+</head>
+<body>
+<h1>Weather by Webmaster Steve</h1>
+<hr>
+<img class=fwid src="https://radar.weather.gov/ridge/standard/KAMX_loop.gif" alt="South Florida Weather Radar">
+<hr>
+<img src="https://cdn.star.nesdis.noaa.gov/GOES16/ABI/SECTOR/se/Sandwich/GOES16-SE-Sandwich-600x600.gif" alt="SE US Sandwich" class=fwid>
+
+<hr>
+<p>Air Quality Map</p>
+<img src="https://gispub.epa.gov/airnow/images/current-pm-ozone.jpg" alt="Air Quality Map" class=fwid>
+
+
+<hr>
+<img src="https://www.nhc.noaa.gov/xgtwo/two_atl_7d0.png" alt="NHC Forecast" class=fwid>
+<hr>
+<p>SE US Water Vapor</p>
+<img class=fwid src="https://cdn.star.nesdis.noaa.gov/GOES19/ABI/SECTOR/se/09/1200x1200.jpg" alt="SE US Water Vapor">
+
+<hr>
+<img class=fwid src="https://cdn.star.nesdis.noaa.gov/GOES16/ABI/CONUS/Sandwich/GOES16-CONUS-Sandwich-625x375.gif" alt="GOES EAST CONUS Sandwich">
+<hr>
+
+<img src="https://cdn.star.nesdis.noaa.gov/GOES19/ABI/FD/Sandwich/1808x1808.jpg" alt="full disk sandwich" class=fwid>
+<hr>
+<p><a href="https://forecast.weather.gov/MapClick.php?lat=26.1242&lon=-80.1436">Fort Lauderdale Forecast</a></p>
+<p><a href="https://www.windy.com/26.140/-80.106?gfs,25.577,-80.107,8,m:eoJadVE">Windy</a></p>
+
+
+<p><a href="https://forecast.weather.gov/product.php?site=MFL&issuedby=MFL&product=AFD&format=CI&version=1&glossary=1">Forecast Discussion</a></p>
+
+<p><a href="https://forecast.weather.gov/data/obhistory/KFLL.html">FLL Airport Weather History</a></p>
+
+<p><a href="https://forecast.weather.gov/product.php?site=NWS&product=CWF&issuedby=MFL">Marine Weather -  Coastal Weather Forecast</a></p>
+
+<p><a href="cams.php">Highway and Street Cameras</a></p>
+<p><a href="https://www.airnow.gov/?city=Fort%20Lauderdale&state=FL&country=USA">Air Quality - Fort Lauderdale</a></p>
+
+<p><a href="https://www.fortlauderdale.gov/government/departments-a-h/fire-rescue/beach-conditions">Fort Lauderdale Beach Conditions</a></p>
+
+<p><a href="https://tidesandcurrents.noaa.gov/noaatidepredictions.html?id=8722951">Tides - Port Everglades</a></p>
+
+<p><a  href="https://www.pivotalweather.com/model.php">14 Day GFS Model Forecast</a></p>
+
+<p><A  HREF="https://www.nhc.noaa.gov">National Hurricane Center</a></p>
+
+<p><A  HREF="https://www.star.nesdis.noaa.gov/GOES/sector_band.php?sat=G19&sector=taw&band=Sandwich&length=12">Tropical Atlantic Satellite</a></p>
+
+<p><A  HREF="https://tropic.ssec.wisc.edu/real-time/sal/g16split/movies/goes16split.html">Saharan Air Layer</a></p>
+
+
+<p><a href="https://radar.weather.gov/">US Radar</a></p>
+
+<p><a href="https://www.star.nesdis.noaa.gov/GOES/sector_band.php?sat=G16&sector=se&band=Sandwich&length=12&dim=1">
+Florida Weather Satellite</a></p>
+
+<p><a href="https://www.star.nesdis.noaa.gov/GOES/conus_band.php?sat=G16&band=GEOCOLOR&length=12">CONUS GEOCOLOR Loop</a></p>
+
+<p><a href="https://fl511.com/list/events/traffic?start=0&length=25&filters%5B0%5D%5Bi%5D=1&filters%5B0%5D%5Bs%5D=Southeast&filters%5B1%5D%5Bi%5D=3&filters%5B1%5D%5Bs%5D=I-95&order%5Bi%5D=4&order%5Bdir%5D=asc">I-95 South Florida Traffic Accidents and Congestion</a></p>
+
+<p><a href="https://www.ftlauderdalebeachcam.com/">Marriott FtL Beach</a></p>
+
+
+<p><a href="https://fl511.com/cctv?start=0&length=90&filters%5B0%5D%5Bi%5D=2&filters%5B0%5D%5Bs%5D=Southeast&filters%5B1%5D%5Bi%5D=3&filters%5B1%5D%5Bs%5D=Monroe&filters%5B2%5D%5Bi%5D=4&filters%5B2%5D%5Bs%5D=US-1&order%5Bi%5D=1&order%5Bdir%5D=asc">Florida Keys Overseas Highway US-1</a></p>
+
+<hr>
+<hr>
+
+<p><a href="https://www.fllbeachcam.com/">Fort Lauderdale Beach Hilton Cam</a></p>
+<p><a href="https://windjammerresort.com/webcam">Lauderdale-By-The-Sea camera at Windjammer Resort and Beach Club</a></p>
+<p><a href="https://www.keywestharborwebcam.com/">Key West Harbor Webcam</a></p>
+<p><a href="https://www.youtube.com/watch?v=o1eTLR7Degs">Dania Beach Pier Cam</a></p>
+<p><a href="https://www.hillsborolighthouse.org/inlet-cam">Hillsboro Inlet camera, Pompano Beach, FL</a></p>
+<p><a href="https://www.pompanobeachfl.gov/webcams">Pompano Beach Webcams</a></p>
+<p><a href="https://www.miamiandbeaches.com/plan-your-trip/miami-webcams">Miami Webcams</a></p>
+<p><a href="https://www.deerfield-beach.com/1474/Beach-Cameras">Deerfield Beach, Surf, Underwater Cameras</a></p>
+<p><a href="https://www.sebastianinletcam.com/">Sebastian Inlet Webcam</a></p>
+<p><a href="https://www.youtube.com/watch?v=cmkAbDUEoyA" >Hollywood Beach - Florida</a></p>
+<p><a href="https://www.surfguru.com/florida-surf-reports/cocoa-beach-pier">Cocoa Beach Webcam</a></p>
+<p><a href="https://www.surfchex.com/cams/hatteras-web-cam/">Hatteras NC Webcam</a></p>
+<p><a href="https://hdontap.com/index.php/video/stream/malibu_surf_cam" >Malibu Surf - California</a></p>
+<p><a href="https://video-monitoring.com/beachcams/boyntoninlet/">Boynton Inlet Webcam</a></p>
+<p><a href="https://video-monitoring.com/beachcams/lakeworthinlet/">Lake Worth Inlet Webcam</a></p>
+<p><a href="https://www.skylinewebcams.com/en/webcam/mexico/baja-california-sur/cabo-san-lucas/cabo-san-lucas.html" >Cabo San Lucas - Mexico</a></p>
+<p><a href="https://www.earthcam.com/usa/florida/manalapan/palmbeach/?cam=manalapan_palmbeach">Palm Beach</a></p>
+<p><a href="https://www.skylinewebcams.com/en/webcam/united-states/california/laguna-beach/laguna-beach.html" >Laguna Beach - California</a></p>
+<p><a href="https://earth.google.com/">Explore with Google Earth</a></p>
+<p><a href="https://stardate.org/moon-phase-calculator">Phases of the moon</a></p>
+
+<p><a href="https://www.cpc.ncep.noaa.gov/products/precip/CWlink/MJO/enso.shtml">El Niño Southern Oscillation</a></p>
+</body>
+</html>
